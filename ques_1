@@ -1,0 +1,14 @@
+#Write a python function to sum all elements of string
+def sum_list():
+  size=int(input("Enter the size of list:"))
+  lst=[]
+  for i in range(1,size+1):
+    data=int(input("Enter your data:"))
+    lst.append(data)
+  print(lst)
+  sum=0
+  for i in lst:
+    sum+=i
+  return sum
+sum_list_element=sum_list()
+print("The sum of elements in list is:",sum_list_element)
